@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300&display=swap');
+*{margin: 0;
+padding: 0%;}
+
+body {
+    font-family: ysabeau sc, Arial, Helvetica, sans-serif;
+}
+
+.parteUno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    background-color: rgba(221, 197, 197, 0.24);
+    border-radius: 45%;
+
+    
+}
+
+
+#imagenParteUno{
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+
+
+
+.parteDos{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+
+
+}
+.contenedorStikers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+    
+  
+}
+
+
+.stikers{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+   
+
+}
+
+.stikers img {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(212, 163, 163, 0.068);
+    border-radius: 30px
+
+}
+
+
+.parteTres{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.contenedorPin{
+    margin: 20px;
+}
+
+button{
+background-color: rgba(221, 197, 197, 0.24);
+height: 35px;
+width: 200px;
+border: 1px solid rgba(197, 166, 166, 0.815);
+border-radius: 5px;
+font-family: ysabeau sc;
+font-weight: 600;
+font-size: 18px;
+color: rgb(112, 108, 108);
+}
+
+input{
+    border: 1px solid rgba(197, 166, 166, 0.815);
+border-radius: 5px;
+height: 18px;
+margin: 10px;
+text-align: center;
+
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color:rgba(221, 197, 197, 0.678);
+  color:black;
+}
