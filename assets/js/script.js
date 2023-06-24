@@ -27,7 +27,7 @@ imagen.addEventListener("click", function() {
 
     let total =  +stiker1 + +stiker2 + +stiker3 + +stiker4;
 
-    if ( total <=10) { document.querySelector("#resultadoVerificar").innerHTML = "llevas" + total;}
+    if ( total <=10) { document.querySelector("#resultadoVerificar").innerHTML = "llevas " + total;}
 
     else { document.querySelector("#resultadoVerificar").innerHTML = "Levas denasiados stikers";}
     
